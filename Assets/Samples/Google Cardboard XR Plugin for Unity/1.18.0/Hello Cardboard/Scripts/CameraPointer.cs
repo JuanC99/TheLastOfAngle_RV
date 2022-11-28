@@ -54,9 +54,9 @@ public class CameraPointer : MonoBehaviour
                 // New GameObject.
 
                 //SendMessage llama a la funcion OnPointerExit de el objeto que estamos mirando
-                _gazedAtObject?.SendMessage("OnPointerExit");
+                _gazedAtObject?.SendMessage("OnPointerExit1");
                 _gazedAtObject = hit.transform.gameObject;
-                _gazedAtObject.SendMessage("OnPointerEnter");
+                _gazedAtObject.SendMessage("OnPointerEnter1");
                 mira.transform.GetChild(0).GetComponent<Animator>().SetTrigger("grande");
             }
         }
@@ -68,7 +68,7 @@ public class CameraPointer : MonoBehaviour
                 mira.transform.GetChild(0).GetComponent<Animator>().SetTrigger("peque");
             }
 
-            _gazedAtObject?.SendMessage("OnPointerExit");
+            _gazedAtObject?.SendMessage("OnPointerExit1");
             _gazedAtObject = null;
             
 
@@ -78,7 +78,7 @@ public class CameraPointer : MonoBehaviour
 
         if (Input.GetButtonUp("A"))
         {
-            _gazedAtObject?.SendMessage("OnPointerClick");
+            _gazedAtObject?.SendMessage("OnPointerClick1");
         }
 
         /*if (Google.XR.Cardboard.Api.IsTriggerPressed)
