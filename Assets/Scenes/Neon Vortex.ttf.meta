@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: cf3ed19052f790443aaeac55390c9b3d
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Neon Vortex
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 0ce5baec9e0a2774885ec6cfac80c639, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
